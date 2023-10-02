@@ -1,11 +1,12 @@
 
-getgenv().config = getgenv().config or {
-	hit_time = 0.5, -- // recommended 0.25 to 0.75 \ --
-	
-	mode = 'Always', -- // Hold , Toggle , Always \ --
-	deflect_type = 'Remote', -- // Key Press , Remote \ --
-	notifications = true,
-	keybind = Enum.KeyCode.V
+shared.config = {
+   adjustment = 3.7, -- // Keep this between 3 to 4 \\ --
+   hit_range = 0.5, -- // You can mess around with this \\ --
+
+   mode = 'Hold', -- // Hold , Toggle , Always \\ --
+   deflect_type = 'Remote', -- // Key Press , Remote \\ --
+   notifications = true,
+   keybind = Enum.KeyCode.E
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/cunning-sys/meowmeowscripts/main/bladeball.lua'),true))()
