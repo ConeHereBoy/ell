@@ -1,5 +1,1 @@
-game.StarterGui:SetCore("SendNotification", {
-Title = "Closed",
-Text = "Pay me 100 robux for it",
-Duration = 35,
-})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20v2.0.0",true))()
