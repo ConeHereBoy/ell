@@ -9,3 +9,8 @@ getgenv().CloseRangeAttack = false -- Just Move Forward To The Last Character
 getgenv().AutoGetVelocity = false -- Need The Ball To Be Stopped
 getgenv().AutoClickKeyBind = "X" -- Need The Ball To Be Stopped
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fd07660d92cb26891e9acfab9f0c6ba4.lua"))()
+game.StarterGui:SetCore("SendNotification", {
+Title = "",
+Text = "AutoParry by Relopxe",
+Duration = 20,
+})
