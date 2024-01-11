@@ -36,13 +36,6 @@ local args = {
 game:GetService("ReplicatedStorage").OtherThing.Tools:FireServer(unpack(args))
 
 local args = {
-    [1] = "Hellish Energy",
-    [2] = "Helmet"
-}
-
-game:GetService("ReplicatedStorage").OtherThing.Tools:FireServer(unpack(args))
-
-local args = {
     [1] = "Little Shivering Armor",
     [2] = "Helmet"
 }
