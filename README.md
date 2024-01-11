@@ -1,6 +1,6 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local window = DrRayLibrary:Load("Thai Hub Meme Adventure", "Default")
+local window = DrRayLibrary:Load("UnitHub", "Default")
 
 local tab = DrRayLibrary.newTab("Op armor", "ImageIdHere")
 
